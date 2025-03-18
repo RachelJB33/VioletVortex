@@ -60,7 +60,7 @@ html {
   z-index: 700;
   padding: 3rem;
   transition: height .5s;
-  animation: animateNavbar 1s .5s forwards;
+  animation: animateNavbar 1s 1.75s forwards;
 }
 
 .navbar-list {
@@ -377,7 +377,7 @@ html {
   box-shadow: 1rem 1rem 5rem rgba(0,0,0,0.5);
   opacity: 0;
   visibility: hidden;
-  animation: fadeAnimation 1s 1.5s forwards;
+  animation: fadeAnimation 1s .75s forwards;
 }
 
 .banner-btn {
@@ -394,7 +394,7 @@ html {
   cursor: pointer;
   opacity: 0;
   visibility: hidden;
-  animation: fadeAnimation 1s 2s forwards;
+  animation: fadeAnimation 1s 4s forwards;
   position: relative;
   overflow: hidden;
 }
